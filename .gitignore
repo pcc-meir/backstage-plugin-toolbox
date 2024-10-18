@@ -105,7 +105,7 @@ dist
 
 .idea
 .vscode
-dist-types/
+# dist-types/
 
 **/.yarn/*
 !**/.yarn/patches
@@ -114,6 +114,6 @@ dist-types/
 !**/.yarn/sdks
 !**/.yarn/versions
 
-dist-types/
+# dist-types/
 
 .DS_Store

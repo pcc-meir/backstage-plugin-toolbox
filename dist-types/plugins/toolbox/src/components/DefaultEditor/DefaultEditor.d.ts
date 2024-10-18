@@ -1,0 +1,27 @@
+import React, { ReactElement } from 'react';
+type Props = {
+    input: string;
+    setInput: (value: string) => void;
+    output?: string;
+    mode?: string;
+    minRows?: number;
+    inputLabel?: string;
+    outputLabel?: string;
+    setMode?: (value: string) => void;
+    modes?: Array<string>;
+    leftContent?: ReactElement;
+    extraLeftContent?: ReactElement;
+    rightContent?: ReactElement;
+    extraRightContent?: ReactElement;
+    sample?: string;
+    additionalTools?: ReactElement[];
+    allowFileUpload?: boolean;
+    acceptFileTypes?: string;
+    allowFileDownload?: boolean;
+    downloadFileType?: string;
+    downloadFileName?: string;
+    inputProps?: any;
+    outputProps?: any;
+};
+export declare const DefaultEditor: (props: Props) => React.JSX.Element;
+export {};
